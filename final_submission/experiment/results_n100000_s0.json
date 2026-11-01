@@ -1,0 +1,115 @@
+{
+  "n": 100000,
+  "nq": 1000,
+  "seed": 0,
+  "R": 31,
+  "eps": 16,
+  "alpha": 1.2,
+  "L_build": 75,
+  "tau": 1.25,
+  "sigma": 0.3,
+  "timings_s": {
+    "data_and_ground_truth": 3.4,
+    "build_vamana_2_passes": 44.6,
+    "layouts_bnp_bnf": 1.1,
+    "control_extra_standard_pass": 25.4,
+    "v1_favour_colocated_pass": 26.1,
+    "v2_implicit_blockmates_pass": 33.7,
+    "layouts_for_new_graphs": 0.7,
+    "search_A_diskann_vertex_search_id_layout": 4.8,
+    "search_B_block_search_id_layout": 11.5,
+    "search_C_starling_block_search_bnf": 7.3,
+    "search_D_control_extra_pass_bnf": 7.4,
+    "search_D2_control_extra_pass_fixed_layout": 7.4,
+    "search_E1_v1_favour_colocated_fixed_layout": 7.2,
+    "search_E2_v1_favour_colocated_reshuffled": 7.0,
+    "search_F_v2_implicit_blockmates_fixed_layout": 6.8
+  },
+  "configs": {
+    "A_diskann_vertex_search_id_layout": {
+      "overlap_ratio": 0.0003,
+      "avg_out_degree": 30.53,
+      "block_search": false,
+      "reads_at_recall_0.90": 42.0,
+      "reads_at_recall_0.95": 80.5,
+      "reads_at_recall_0.98": 193.9,
+      "max_recall": 0.9878,
+      "relevant_per_read_near_0.95": 0.916
+    },
+    "B_block_search_id_layout": {
+      "overlap_ratio": 0.0003,
+      "avg_out_degree": 30.53,
+      "block_search": true,
+      "reads_at_recall_0.90": 25.7,
+      "reads_at_recall_0.95": 44.6,
+      "reads_at_recall_0.98": 91.9,
+      "max_recall": 0.9954,
+      "relevant_per_read_near_0.95": 0.968
+    },
+    "C_starling_block_search_bnf": {
+      "overlap_ratio": 0.1826,
+      "avg_out_degree": 30.53,
+      "block_search": true,
+      "reads_at_recall_0.90": 15.0,
+      "reads_at_recall_0.95": 21.5,
+      "reads_at_recall_0.98": 41.5,
+      "max_recall": 0.997,
+      "relevant_per_read_near_0.95": 2.169
+    },
+    "D_control_extra_pass_bnf": {
+      "overlap_ratio": 0.182,
+      "avg_out_degree": 30.58,
+      "block_search": true,
+      "reads_at_recall_0.90": 13.3,
+      "reads_at_recall_0.95": 20.1,
+      "reads_at_recall_0.98": 38.6,
+      "max_recall": 0.9973,
+      "relevant_per_read_near_0.95": 2.234
+    },
+    "D2_control_extra_pass_fixed_layout": {
+      "overlap_ratio": 0.1816,
+      "avg_out_degree": 30.58,
+      "block_search": true,
+      "reads_at_recall_0.90": 15.0,
+      "reads_at_recall_0.95": 21.6,
+      "reads_at_recall_0.98": 40.0,
+      "max_recall": 0.9973,
+      "relevant_per_read_near_0.95": 2.167
+    },
+    "E1_v1_favour_colocated_fixed_layout": {
+      "overlap_ratio": 0.2047,
+      "avg_out_degree": 30.69,
+      "block_search": true,
+      "reads_at_recall_0.90": 15.0,
+      "reads_at_recall_0.95": 21.7,
+      "reads_at_recall_0.98": 40.3,
+      "max_recall": 0.9973,
+      "relevant_per_read_near_0.95": 2.166
+    },
+    "E2_v1_favour_colocated_reshuffled": {
+      "overlap_ratio": 0.1885,
+      "avg_out_degree": 30.69,
+      "block_search": true,
+      "reads_at_recall_0.90": 14.2,
+      "reads_at_recall_0.95": 21.7,
+      "reads_at_recall_0.98": 40.2,
+      "max_recall": 0.9976,
+      "relevant_per_read_near_0.95": 2.148
+    },
+    "F_v2_implicit_blockmates_fixed_layout": {
+      "overlap_ratio": 0.0,
+      "avg_out_degree": 30.35,
+      "block_search": true,
+      "reads_at_recall_0.90": 14.0,
+      "reads_at_recall_0.95": 20.4,
+      "reads_at_recall_0.98": 38.0,
+      "max_recall": 0.9977,
+      "relevant_per_read_near_0.95": 2.216
+    }
+  },
+  "layout_overlap_ratio_on_G0": {
+    "id": 0.0003,
+    "bnp": 0.1219,
+    "bnf": 0.1826
+  }
+}

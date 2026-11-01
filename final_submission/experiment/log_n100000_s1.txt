@@ -1,0 +1,24 @@
+22:12:08 data_and_ground_truth 3.0 s
+22:12:54 build_vamana_2_passes 45.6 s
+22:12:55 layouts_bnp_bnf 1.3 s
+22:13:20 control_extra_standard_pass 25.1 s
+22:13:46 v1_favour_colocated_pass 26.0 s
+22:14:20 v2_implicit_blockmates_pass 33.1 s
+22:14:20 layouts_for_new_graphs 0.7 s
+22:14:25 search_A_diskann_vertex_search_id_layout 4.9 s
+22:14:25 A_diskann_vertex_search_id_layout {'overlap_ratio': 0.0003, 'avg_out_degree': 30.51, 'block_search': False, 'reads_at_recall_0.90': 43.4, 'reads_at_recall_0.95': 88.6, 'reads_at_recall_0.98': 202.3, 'max_recall': np.float64(0.9868), 'relevant_per_read_near_0.95': 0.917}
+22:14:38 search_B_block_search_id_layout 12.6 s
+22:14:38 B_block_search_id_layout {'overlap_ratio': 0.0003, 'avg_out_degree': 30.51, 'block_search': True, 'reads_at_recall_0.90': 25.9, 'reads_at_recall_0.95': 43.1, 'reads_at_recall_0.98': 100.9, 'max_recall': np.float64(0.9923), 'relevant_per_read_near_0.95': 0.972}
+22:14:45 search_C_starling_block_search_bnf 7.1 s
+22:14:45 C_starling_block_search_bnf {'overlap_ratio': 0.1783, 'avg_out_degree': 30.51, 'block_search': True, 'reads_at_recall_0.90': 13.6, 'reads_at_recall_0.95': 24.2, 'reads_at_recall_0.98': 51.0, 'max_recall': np.float64(0.9954), 'relevant_per_read_near_0.95': 2.164}
+22:14:52 search_D_control_extra_pass_bnf 7.1 s
+22:14:52 D_control_extra_pass_bnf {'overlap_ratio': 0.1772, 'avg_out_degree': 30.56, 'block_search': True, 'reads_at_recall_0.90': 13.9, 'reads_at_recall_0.95': 26.5, 'reads_at_recall_0.98': 52.5, 'max_recall': np.float64(0.9957), 'relevant_per_read_near_0.95': 2.1}
+22:14:59 search_D2_control_extra_pass_fixed_layout 7.0 s
+22:14:59 D2_control_extra_pass_fixed_layout {'overlap_ratio': 0.1773, 'avg_out_degree': 30.56, 'block_search': True, 'reads_at_recall_0.90': 13.3, 'reads_at_recall_0.95': 23.5, 'reads_at_recall_0.98': 47.8, 'max_recall': np.float64(0.9962), 'relevant_per_read_near_0.95': 2.163}
+22:15:06 search_E1_v1_favour_colocated_fixed_layout 7.4 s
+22:15:06 E1_v1_favour_colocated_fixed_layout {'overlap_ratio': 0.1992, 'avg_out_degree': 30.66, 'block_search': True, 'reads_at_recall_0.90': 13.3, 'reads_at_recall_0.95': 23.5, 'reads_at_recall_0.98': 47.8, 'max_recall': np.float64(0.9962), 'relevant_per_read_near_0.95': 2.163}
+22:15:14 search_E2_v1_favour_colocated_reshuffled 7.4 s
+22:15:14 E2_v1_favour_colocated_reshuffled {'overlap_ratio': 0.1834, 'avg_out_degree': 30.66, 'block_search': True, 'reads_at_recall_0.90': 13.8, 'reads_at_recall_0.95': 24.1, 'reads_at_recall_0.98': 48.3, 'max_recall': np.float64(0.9962), 'relevant_per_read_near_0.95': 2.176}
+22:15:21 search_F_v2_implicit_blockmates_fixed_layout 7.2 s
+22:15:21 F_v2_implicit_blockmates_fixed_layout {'overlap_ratio': 0.0, 'avg_out_degree': 30.35, 'block_search': True, 'reads_at_recall_0.90': 12.8, 'reads_at_recall_0.95': 22.3, 'reads_at_recall_0.98': 44.5, 'max_recall': np.float64(0.9966), 'relevant_per_read_near_0.95': 2.167}
+22:15:21 done
